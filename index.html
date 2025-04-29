@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ID Eingabe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="background"></div>
+
+    <div class="input-section">
+        <h2>ID bitte eingeben:</h2>
+
+        <div class="number-inputs">
+            <input type="text" maxlength="1">
+            <input type="text" maxlength="1">
+            <input type="text" maxlength="1">
+            <input type="text" maxlength="1">
+            <input type="text" maxlength="1">
+        </div>
+
+        <button class="submit-button" onclick="checkID()">Bestätigen</button>
+
+        <div id="instruction" class="hidden">
+            ✅ Richtige ID! Zugriff gewährt.
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
